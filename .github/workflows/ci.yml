@@ -27,8 +27,8 @@ jobs:
       - name: Run MLflow Project
         run: |
           mlflow run MLProject/ \
-            -P train_path=MLProject/heart_preprocessing/heart_train.csv \
-            -P test_path=MLProject/heart_preprocessing/heart_test.csv \
+            -P train_path=heart_preprocessing/heart_train.csv \
+            -P test_path=heart_preprocessing/heart_test.csv \
             --env-manager=local
 
       - name: Upload artifacts
