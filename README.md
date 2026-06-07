@@ -13,7 +13,7 @@ Workflow-CI/
 │   └── workflows/
 │       └── ci.yml
 ├── MLProject/
-│   ├── MLProject
+│   ├── MLproject
 │   ├── conda.yaml
 │   ├── modelling.py
 │   └── heart_preprocessing/
